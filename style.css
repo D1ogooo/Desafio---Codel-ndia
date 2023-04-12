@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+.container{
+	width: 50%;
+    margin: 0 auto;
+}
+
+.create-account{
+	position: fixed;
+    bottom: 0%;
+    margin: 30px;
+	margin-left: 70px;
+}
+
+.create-account a{
+	text-decoration: none;
+	color: #1A202C;
+	margin: 2px;
+}
+
+.section-pai{
+	display: flex;
+	margin-top: 220px;
+}
+
+.section-content{
+	margin-left: 180px;
+}
+
+.section-image{
+	background-color: #F7FAFC;
+	height: 100%;
+	width: 50%;
+	background: #F7FAFC;
+}
+
+.section-image img{
+	margin-left: -120px;
+}
+
+.paragrafo-input{
+    font-family: 'Merriweather', serif;
+	color: #1A202C;
+}
+
+.input-login p{
+	font-family: 'Lato', sans-serif;
+	color: #1a202cd5;
+	margin: 2px;
+}
+
+.title-input{
+	color: #1A202C;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.input-login{
+	display: flex;
+	flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"]::placeholder{
+	padding: 10px;
+}
+
+input[type="email"],
+input[type="password"]{
+	width: 350px;
+	height:50px;
+	border-radius: 5px;
+	border: solid 1px #1a202c30;
+}
+
+input[type="submit"]{
+	width: 350px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	background: #04C45C;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.login-sub{
+	display: flex;
+	gap: 98px;
+	margin-bottom: 12px;
+	margin-top: 15px;
+	width: 368px;
+}
+
+.login-sub a{
+	text-decoration: none;
+	color: #1A202C;
+	font-family: 'Lato';
+}
+
+.alternative-login{
+	width: 350px;
+	height: 50px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #1A202C;
+	font-family: 'Lato';
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.alternative-login a{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #1A202C;
+}
+
+.alternative-login img{
+	margin-top: 10px;
+}
+
+.radio-custom{
+   display: flex;
+   color: #1A202C;
+   font-family: 'Lato';
+}
+
+.radio-custom a{
+	margin-left: 5.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

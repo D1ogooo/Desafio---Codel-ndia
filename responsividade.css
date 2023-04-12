@@ -1,0 +1,27 @@
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.section-image img {
+		margin-left: -500px;
+	}
+
+	.section-content {
+		margin-left: -85px;
+		margin-top: -310px;
+		font-size: 13px;
+	}
+
+	.section-pai {
+		align-items: center;
+		padding: 5px;
+		margin-top: 240px;
+	}
+
+	.alternative-login{
+		margin-bottom: 20px;
+	}
+
+	section{
+		margin-left: -2px;
+	}
+
+}
